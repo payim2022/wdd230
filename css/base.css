@@ -20,7 +20,7 @@ header,footer,main{
 header{
     display: flex;
     justify-content: space-between;
-    align-items: left;
+    align-items: center;
 }
 #profile-pic {
     width: 150px;
@@ -30,5 +30,8 @@ body, h1,h2,h3,h4,h5,h6 {
     font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-    color: azure;
+    color: rgb(0, 0, 0);
+}
+H2{
+    color: aliceblue;
 }
