@@ -1,1 +1,2 @@
-document.querySelector( "#lasmod").textContent = document.lastModified;
+document.querySelector( "#lasmodify").textContent = document.lastModified;
+let oLastModif = new Date 
