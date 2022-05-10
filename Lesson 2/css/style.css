@@ -1,0 +1,16 @@
+.container {
+   max-width: 960;
+   margin: 100px auto; 
+   padding: 10px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1f;
+}
+
+.item{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    border:black 1px solid;
+}
