@@ -1,0 +1,40 @@
+@media only screen and (min-width: 32.5em) {
+    body {
+        font-size: 16px;
+    }
+
+    .main-area {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    p {
+        font-size: 0.7em;
+    }
+
+    section {
+        text-align: center;
+    }
+
+    header {
+        border-radius: 0 0 5px 5px;
+    }
+
+    footer {
+        border-radius: 5px 5px 0 0;
+    }
+
+    .main-area section:nth-child(1) {
+        grid-area: 1/1/1/2;
+        margin: 0.25rem;
+    }
+
+    .main-area section:nth-child(2) {
+        grid-area: 1/2/1/3;
+        margin: 0.25rem;
+    }
+
+    .main-area section:nth-child(3) {
+        grid-area: 2/1/2/3;
+        margin: 0.25rem;
+    }
+}
