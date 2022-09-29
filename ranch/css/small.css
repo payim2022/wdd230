@@ -45,6 +45,7 @@ nav ul {
 nav li {
     list-style-type: none;
 }
+nav li.active {background-color: rgb(6, 60, 60); }
 
 nav a {
     display: block;
