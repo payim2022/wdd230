@@ -151,6 +151,11 @@ span.navH {
     z-index: 7;
 }
 
+nav ul li.active a {
+    background-color: #15be37;
+    color: #fff;
+}
+
 /* Styles for the main and the children of main */
 main {
     padding: 1px 1em;
