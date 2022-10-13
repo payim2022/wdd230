@@ -22,9 +22,9 @@ h1 {
 
 main {
     margin: 0.5rem auto;
-    border: 1px solid #999;
+    border: 1px solid rgb(45, 42, 42);
     padding: 0.5rem;
-    background-color: #266df0;
+    background-color: #edc8a6;
     display: grid;
     grid-template-columns: 1fr;
     width: 95%;
@@ -39,21 +39,24 @@ button {
     font-size: 1.1rem;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: rgb(26, 26, 27);
 }
 
 input {
     width: 200px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: rgb(17, 16, 16);
 
 }
 
 label {
     font-size: 1rem;
+    color: rgb(0, 0, 0);
 }
 
 .listcontainer {
-    border: 1px solid #bbb;
+    border: 1px solid rgb(63, 63, 63);
     margin: 1rem;
     padding: 1rem;
     border-radius: 10px;
@@ -87,8 +90,8 @@ li {
 }
 
 footer {
-    background-color: #266df0;
-    color: black;
+    background-color: #edc8a6;
+    color: rgb(26, 24, 24);
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     text-align: center;
@@ -97,6 +100,7 @@ footer {
     margin-top: 300px;
     font-size: .7em;
     font-family: 'Montserrat';
+    width: 480px;
 }
 
 footer a {
