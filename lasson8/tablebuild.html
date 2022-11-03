@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Table Build</title>
+    <meta name="description" content="A representation of a table structure in HTML.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/tablebuild.css">
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th scope="colgroup" colspan="3">ACME Wildwest</th>
+        </tr>
+        <tr>
+            <th scope="col" id="period">Period</th>
+            <th scope="col" id="sales">Sales</th>
+            <th scope="col" id="salesGoal">Sales Goal</th>
+        </tr>
+        <tr>
+            <td headers="period">August</td>
+            <td headers="sales">$3,590</td>
+            <td headers="salesGoal">$4,000</td>
+        </tr>
+        <tr>
+            <td headers="period">September</td>
+            <td headers="sales">$4,420</td>
+            <td headers="salesGoal">$5,000</td>
+        </tr>
+        <tr>
+            <td headers="period">October</td>
+            <td headers="sales">$4,870</td>
+            <td headers="salesGoal">%5,000</td>
+        </tr>
+        <tr>
+            <td headers="period">November</td>
+            <td headers="sales">$8,610</td>
+            <td headers="salesGoal" id="novSG">$7,500</td>
+        </tr>
+        <tr>
+            <td headers="period"><em>Black Friday</em></td>
+            <td headers="sales salesGoal" colspan="2">$3,200</td>
+
+        </tr>
+        <tr>
+            <td headers="period">December</td>
+            <td headers="sales">$6,820</td>
+            <td headers="salesGoal">$7,500</td>
+        </tr>
+
+    </table>
+</body>
+
+</html>
