@@ -1,0 +1,575 @@
+/* Css for smaller screen devices */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+p,
+li,
+div {
+    font-family: 'Popins';
+}
+
+#home-page p {
+    font-weight: bold;
+}
+
+/* ------- Navigation ------- */
+nav button {
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: white
+}
+
+nav {
+    background-color: #527fa1;
+    text-align: center;
+    padding: .2rem;
+}
+
+#menu-btn {
+    font-size: 20px;
+    align-items: center;
+    padding-right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: .8rem 2vw;
+    border-top: 1px solid rgba(0, 0, 0, .3);
+    font-size: large;
+}
+
+nav li.active{background-color: #087b02;}
+
+nav ul li a:hover {
+    background-color: #14d050;
+    color: #000000;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+#now {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: large;
+}
+
+/* ------- Header -------- */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 6rem;
+}
+
+.header-content h1 {
+    font-family: 'Noto Serif';
+}
+
+/* ------- Homepage ------- */
+main#home-page {
+    margin: .5rem;
+    padding: .1rem;
+    margin: 0 auto;
+}
+
+main>div {
+    margin-top: 2rem;
+}
+
+div.join picture img {
+    padding: 1rem 0;
+}
+
+.news-events,
+.weather,
+.join,
+.spotlight1,
+.spotlight2 {
+    text-align: center;
+}
+
+.spotlight1 section,
+.spotlight2 section {
+    margin-bottom: auto;
+    border-bottom: #666 solid 1px;
+    padding: auto;
+}
+
+.spotlight1 section img,
+.spotlight2 section img {
+    padding: 1rem 0;
+}
+
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+div.herodiv section {
+    position: absolute;
+    top: 5%;
+    left: -600px;
+    right: 0;
+    padding: 1.5rem;
+    color: rgba(6, 6, 99, 0.788);
+    background-color: rgba(255, 255, 255, 0.6);
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slide 1.5s forwards;
+    animation-delay: 1s;
+}
+
+@-webkit-keyframes slide {
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes slide {
+    100% {
+        left: 0;
+    }
+}
+
+.gold-members {
+    height: 40vh;
+    overflow: scroll;
+}
+
+.gold-members h2 {
+    background-color: #527fa1;
+    color: white;
+    padding: 1rem 0;
+}
+
+.gold-members section a,
+.spotlight1 section a,
+.spotlight2 section a {
+    text-decoration: none;
+    color: #056e2b;
+}
+
+.spotlight1 section a:hover,
+.spotlight2 section a:hover {
+    text-decoration: underline;
+}
+
+main div button {
+    color: #3768ae;
+    padding: .5rem;
+    margin-top: 1rem;
+    font-weight: bolder;
+    background-color: transparent;
+    border: 3px solid #14d050;
+    box-shadow: 0 0 10px #E5E5E5;
+    border-radius: 10px;
+}
+
+main div button:hover {
+    background-color: #14d050;
+    color: #2365ac;
+}
+
+.weather {
+    background-color: #E5E5E5;
+}
+
+h3,
+main div.news-events p,
+main div.join p,
+.discover article h2,
+.discover article p {
+    padding: 1rem;
+}
+
+main div.weather h2 {
+    padding: 10px;
+}
+
+.join {
+    padding: 3rem;
+    box-shadow: 0 0 10px #888;
+}
+
+.join button {
+    display: block;
+    color: #043315;
+    border: none;
+    background-color: #14d050;
+    width: 100%;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 1.5rem;
+}
+
+.join button:hover {
+    background-color: #1ec016;
+    color: white;
+}
+
+.news-events h2 {
+    background-color: #14d050;
+    color: white;
+    padding: 10px;
+}
+
+.herodiv section h2 {
+    margin-bottom: 1rem;
+}
+
+.hero-img source {
+    vertical-align: middle;
+}
+
+/* -------Weather--------*/
+.weather {
+    position: relative;
+    height: 30vh;
+}
+
+.weatherInfo {
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    text-align: left;
+}
+
+.weather figure {
+    position: absolute;
+    left: 10%;
+    bottom: 20%;
+}
+
+#weatherIcon {
+    width: 100%;
+}
+
+
+/* ------- Footer ------- */
+.footer-content {
+    display: block;
+    background-color: #527fa1;
+    color: white;
+    padding: 10px;
+    padding-top: 0;
+}
+
+.footer-content div {
+    font-size: 13px;
+    text-align: center;
+    align-self: center;
+}
+
+.base-footer {
+    text-align: center;
+    padding: 1.5rem 2vw;
+    margin: 2rem;
+}
+
+.base-footer p {
+    padding: 5px;
+    color: #666;
+}
+
+/*----Top-page banner----*/
+#top-page-banner {
+    text-align: center;
+    padding: 10px;
+    background-color: #14d050;
+}
+
+.bannerBtn {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 5%;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+/* -----Clearfix-------*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* -----Lazy Load Effect-------- */
+main.discover picture img[data-src] {
+    opacity: 0;
+    visibility: hidden;
+}
+
+main.discover picture img {
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+
+/* -----Discover Page Section-------- */
+.discover-heading {
+    background-color: #EEEE;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.greeting {
+    padding-bottom: 1rem;
+}
+
+/* ----Discover Media Card------ */
+.media-card {
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px 2px #888;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.discover-article {
+    padding: 2rem;
+    text-align: center;
+}
+
+.discover-article p {
+    padding-top: 1rem;
+}
+
+.media-btn:hover {
+    background-color: gray;
+}
+
+/* -------Join Page-------- */
+#join-form {
+    padding: 1rem 1rem;
+}
+
+#join-form h2 {
+    text-align: center;
+    font-family: 'Noto Serif';
+    padding: 1rem;
+}
+
+label.top {
+    display: block;
+    padding-top: 1rem;
+    font-family: 'Montserrat';
+    color: #056e2b;
+    font-weight: bolder;
+}
+
+form label.sbs {
+    display: block;
+    font-size: 1.5rem;
+    padding: .75rem 0;
+    color: #14d050;
+    font-weight: bolder;
+}
+
+legend {
+    font-family: 'Montserrat';
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: bolder;
+    padding: 0 .5rem;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    padding: 1rem;
+    border-radius: 15px;
+    border: #999 1px solid;
+}
+
+form label.top input,
+textarea {
+    display: block;
+    width: 100%;
+    max-width: 20rem;
+    padding: .50rem 0;
+    border: 1px solid #888;
+    border-radius: 3px;
+}
+
+form input.submitBtn {
+    width: 90%;
+    max-width: 15rem;
+    padding: 1rem;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    background-color: red;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    margin-left: 5%;
+}
+
+form input.submitBtn:hover {
+    background-color: #14d050;
+}
+
+/* -------Validation------- */
+form label.top input:required {
+    border-color: red;
+}
+
+form label.top input:required:valid {
+    border-color: #888;
+}
+
+/*------Thank you page------*/
+#thankyou {
+    text-align: center;
+}
+
+#thankyou h2 {
+    font-family: 'Montserrat';
+    padding: 2rem;
+}
+
+#thankyou p {
+    padding: 0 2rem 4rem 2rem;
+}
+
+/*--------Directory Page--------*/
+.directoryPage h2.dirHeading {
+    font-family: 'Montserrat';
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #EEEE;
+    margin-bottom: 3rem;
+}
+
+.list-view section h2,
+.grid-view section h2 {
+    font-family: 'Noto Serif';
+    text-align: center;
+}
+
+/*--------Directory Page buttons----------*/
+.links ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.links ul li span {
+    margin: 7px;
+    font-size: 2rem;
+}
+
+.links ul li:hover,
+.links ul li.active {
+    color: white;
+    background-color: #14213D;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*--------Grid View-------------*/
+.grid-view section {
+    margin: 1rem;
+    padding: 2.5rem 1.5rem;
+    border-radius: 1rem;
+    border: #888 1px solid;
+    color: #14d050;
+}
+
+.grid-view section img {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.grid-view section hr {
+    margin-bottom: 1.5rem;
+}
+
+.grid-view section p,
+.grid-view section a {
+    font-size: 13px;
+    font-weight: bolder;
+    padding: 5px 0;
+}
+
+/*-----------List View------------*/
+.list-view section {
+    padding: 1rem;
+    color: #14213D;
+    margin: 0 .5rem;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.list-view section:nth-last-of-type(even) {
+    background-color: rgba(252, 163, 17, .5);
+}
+
+.list-view section p {
+    padding: 3px;
+}
+
+.list-view section:last-child {
+    margin-bottom: 3rem;
+}
+
+/*-----------Contact---------------*/
+label.cont-fields {
+    display: block;
+    padding: .50rem 0;
+    font-weight: bold;
+}
+
+label.cont-fields input {
+    display: block;
+    width: 100%;
+    max-width: 20rem;
+    border: 1px solid #888;
+    padding: .50rem 0;
+}
+
+#contact div {
+    width: 95%;
+    margin: 0 auto;
+    padding: 1.5rem 0;
+}
+
+.contactBtn {
+    margin: 1.5rem 0 1.5rem 1rem;
+    padding: .50rem;
+    background-color: #FCA311;
+    color: #14213D;
+    font-weight: bold;
+    border: none;
+}
+
+.contactBtn:hover {
+    background-color: #14213D;
+    color: #E5E5E5;
+}
