@@ -283,7 +283,10 @@ main div.weather h2 {
     text-align: center;
     align-self: center;
 }
-
+iframe{
+    width: 90%;
+    height: 200px;
+}
 .base-footer {
     text-align: center;
     padding: 1.5rem 2vw;
@@ -419,7 +422,7 @@ form input.submitBtn {
     max-width: 15rem;
     padding: 1rem;
     box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
-    background-color: red;
+    background-color: rgb(105, 169, 219);
     color: white;
     font-family: 'Montserrat';
     font-weight: bold;
@@ -430,12 +433,12 @@ form input.submitBtn {
 }
 
 form input.submitBtn:hover {
-    background-color: #14d050;
+    background-color: #091df5;
 }
 
 /* -------Validation------- */
 form label.top input:required {
-    border-color: red;
+    border-color: #14d050;
 }
 
 form label.top input:required:valid {
