@@ -7,7 +7,7 @@ function toggleMenu() {
 
 let x = document.getElementById('hamburgerBtn')
 x.onclick = toggleMenu
-
+ 
 
 // script for time and date 
 document.querySelector('#now').innerHTML = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format();
