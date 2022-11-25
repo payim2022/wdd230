@@ -531,7 +531,7 @@ form label.top input:required:valid {
 }
 
 .list-view section:nth-last-of-type(even) {
-    background-color: rgba(252, 163, 17, .5);
+    background-color: rgba(40, 100, 134, 0.5);
 }
 
 .list-view section p {
@@ -566,13 +566,13 @@ label.cont-fields input {
 .contactBtn {
     margin: 1.5rem 0 1.5rem 1rem;
     padding: .50rem;
-    background-color: #FCA311;
+    background-color: #4fa8f1;
     color: #14213D;
     font-weight: bold;
     border: none;
 }
 
 .contactBtn:hover {
-    background-color: #14213D;
+    background-color: #0a4cda;
     color: #E5E5E5;
 }

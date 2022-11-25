@@ -195,7 +195,7 @@ main div button:hover {
 }
 
 .weather {
-    background-color: #E5E5E5;
+    background-color: #2365ac;
 }
 
 h3,
@@ -530,7 +530,7 @@ form label.top input:required:valid {
 }
 
 .list-view section:nth-last-of-type(even) {
-    background-color: rgba(252, 163, 17, .5);
+    background-color: rgba(89, 163, 233, 0.5);
 }
 
 .list-view section p {

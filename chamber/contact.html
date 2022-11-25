@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description"
+        content="Contact page created by Charles Ayim. For Web Frontend Development Class at Brigham Young University- Idaho">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Serif&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <title>Chamber of Commerce | Contact</title>
+</head>
+
+<body>
+    <div id="top-page-banner">
+        <div class="banner-content">
+            🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+            <button class="bannerBtn" type="button">&times;</button>
+        </div>
+    </div>
+
+
+    <header>
+        <div class="header-content">
+        <picture>
+            <a href="index.html"><img src="images/Group 2.jpg" alt="logo"></a>
+        </picture>
+            <section>
+                <h1> Redemption Chamber of Commerce</h1>
+                <a href="https://www.facebook.com/"><img class="social-media" src="images/facebook-logo-2019.png"
+                        width="40" alt="facebook-icon"></a>
+                <a href="https://twitter.com/"><img class="social-media"
+                        src="images/logo-twitter-circle-png-transparent-image-1.png" width="40" alt="twitter-icon"></a>
+            </section>
+        </div>
+
+
+        <div id="now"></div>
+
+        <nav>
+
+            <button id="hamburgerBtn"><span id="menu-btn">MENU </span>&#9776;</button>
+
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main id="contact">
+    <form method="get" action="thankyou.html">
+        <div class="form-container">
+            <div class="msg-confirmation"></div>
+            <form action="msg-confirmation.html" method="post">
+                <fieldset class="contact-field">
+                    <legend>Contact</legend>
+
+                    <label class="cont-fields">First Name: <input type="text" name="fname" required></label>
+                    <label class="cont-fields">Last Name: <input type="text" name="lname" required></label>
+                    <label class="cont-fields">Organization: <input type="text" name="organization"></label>
+                    <label class="cont-fields">Title: <input type="text" name="title" required></label>
+                    <label class="cont-fields">Phone: <input type="tel" name="phone" required></label>
+                    <label class="cont-fields">E-mail: <input type="email" name="email" required></label>
+                    <label class="cont-fields">Message: <textarea placeholder="Type here"
+                            name="description"></textarea></label>
+                            
+                </fieldset>
+                <input type="submit" value="Send My Message" class="contactBtn">
+               
+            </form>
+
+        </div>
+
+
+
+
+
+
+    </main>
+
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <a href="index.html"><img src="images/Group 2.jpg" alt="logo"></a>
+            </div>
+            <div>
+                <h3> Redemption Chamber of Commerce</h3>
+                <p>7845 MCcarthy Valley</p>
+                <p>Redemption Hill, Accra-Ghana</p>
+    
+            </div>
+            <div>
+                <h4>
+                    <p>info@Redemptionchamber.com</p>
+    
+                    <p>2089701516</p>
+                    <h4> Map</h4>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19026.713351685758!2d-0.32570665260529963!3d5.552550738526964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb9a7f0829c925d61!2sJOY%20HILLS%20HOTEL!5e0!3m2!1sen!2sus!4v1667541846521!5m2!1sen!2sus"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </h4>
+            </div>
+    
+        </div>
+    
+        <div class="base-footer">
+            <p>&copy;<span id="year"></span> Chamber of Commerce - Redemption</p>
+            <p>Charles Ayim</p>
+            <p>WDD 230 Project</p>
+            <p>Last Modified: <span id="currentDateandTime"></span></p>
+        </div>
+    
+    
+    </footer>
+
+    </footer>
+
+    <script src="js/msgConfirmation.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
