@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;600&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+    <!--Page Information-->
+    <title>Bountiful Foods</title>
+    <meta name="description" content="Home page of the Bountiful Foods website for
+                WDD230 Final Project.">
+    <!--Styles-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <!-- <link rel="shortcut icon" href="favicon.ico"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Scripts-->
+    <script src="scripts/scripts.js" defer></script>
+</head>
+
+<body id="fresh">
+    <header class="content-width">
+        <h1>Bountiful Foods</h1>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="fresh.html">Fresh</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="attribution.html">Attribution</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content-width">
+        <section>
+            <h2>Mixology Shop</h2>
+            <form action="fresh.html">
+                <fieldset>
+                    <legend>Your Custom Drink</legend>
+                    <label class="top">First name*<input type="text" name="fname" required></label>
+                    <label class="top">Email*<input type="email" name="email" placeholder="Someone@gmail.com"
+                            required></label>
+                    <label class="top">Cellphone Number*<input type="tel" name="phone" placeholder="1235551234"
+                            required></label>
+
+                    <hr>
+                    <label class="sbs"><input type="radio" name="fruit1" value="fruit1"> Fruit1</label>
+                    <hr>
+                    <label class="sbs"><input type="radio" name="fruit1" value="fruit1"> Fruit1</label>
+                    <hr>
+                    <label class="sbs"><input type="radio" name="fruit1" value="fruit1"> Fruit1</label>
+                </fieldset>
+                <label><input type="submit" value="Make My Smoothie" class="submitBtn"></label>
+            </form>
+        </section>
+    </main>
+    <footer class="content-width">
+        <div>
+            <!-- logo Contact-Info Map-Link-->
+            <section class="contact-us">
+                <h3>Contact Us</h3>
+                <nav>
+                    <ul>
+                        <li>Phone Number: <a href="">+1(234)567-8910</a></li>
+                        <li>Email: <a href="">Email@email.com</a> </li>
+                        <li>Address: <a href="https://goo.gl/maps/tQm65gv11vbDSnSc6">Address St. Carlsbad, CA.</a> </li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="locations">
+                <h3>Locations</h3>
+                <nav>
+                    <ul>
+                        <li>Main Location: <a href="https://goo.gl/maps/tQm65gv11vbDSnSc6">Carlsbad Village,
+                                Carlsbad</a></li>
+                        <li>Food Truck 1: <a href="https://goo.gl/maps/DyDk3wKD3JBBaKdM9">La Jolla Shores, San Diego</a>
+                        </li>
+                        <li>Food Truck 2: <a href="https://goo.gl/maps/CQZgjE8HKituKkWK7">Down Town, Huntington
+                                Beach</a> </li>
+                        <li>Food Truck 3: <a href="https://goo.gl/maps/e4CxJq31D8h5PqHb6">The Pike Outlets, Long
+                                Beach</a> </li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="socials">
+                <h3>Social Media</h3>
+                <p>
+                    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                    <a href="https://www.pinterest.com/" class="fa fa-pinterest"></a>
+                    <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                </p>
+            </section>
+        </div>
+        <hr>
+        <div id="class-info">
+            <!-- Class Information -->
+            <p>
+                &copy; <span class="currentyear"></span> | charles Ayim |
+                WDD 230 | Last Updated: <span class="lastupdated"></span>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
